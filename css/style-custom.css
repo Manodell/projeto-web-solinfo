@@ -1,0 +1,41 @@
+#header{max-height: 25px;}
+.topo_site{background:#323232;color:#ffffff;}
+.topo_site h1{font-size: 100%;margin: 0%;}
+.icon-cart img{width: 60%;}
+
+
+
+.visitante{position: absolute;top:0;}
+.carrinho_visitante{padding:0px ;color:#ffffff;background: #333;}
+.carrinho_visitante img{float:left;z-index:1;}
+.carrinho_visitante p{float:none;}
+.newslatterx input{display: inline;}
+.clear{clear: both;}
+
+.fontzero{font-size: 0%;}
+
+ul{list-style: none;}
+.lista_novos li,.lista_anterior li{display: inline-block; margin: 0px;}
+
+
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 95%;
+
+    }
+    .topo_cart{position: absolute;top: 0%;right: 3%;}
+
+}
+@media screen and (max-width:320px) {
+
+}
+@media screen and (max-width:480px) {
+
+    .topo_cart{right: 0%;}
+}
+@media screen and (min-width:600px) { }
+@media screen and (min-width:768px) { }
+@media screen and (min-width:992px) { }
