@@ -19,17 +19,15 @@
 <body>
 
 <!--código do otoniel pra ser complementado -->
-<section>
-    <!-- SECTION COM  CONTEÚDO PRINCIPAL DO SITE -->
-    <section id="header" class="header">
-<!--        SECTION HEADER -->
+<section><!-- SECTION COM  CONTEÚDO PRINCIPAL DO SITE -->
+    <section id="header" class="header"><!--        SECTION HEADER -->
        <div class="topo_site" id="topbar">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6">
                         <h1>
-                            <span>Bem vindo, Visitante! Vocẽ pode</span><a href="#"> iniciar seção </a>ou
-                            <a href="#"> cadastrar</a>
+                            <span>Bem vindo, Visitante! Vocẽ pode</span><a title="Faça o seu Login e Compre com Segurança" href="#"> iniciar seção </a>ou
+                            <a title="Faça o Seu cadastro e Aquira Hoje mesmo os produtos da Off Lord." href="#"> cadastrar</a>
                         </h1>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6">
@@ -39,6 +37,8 @@
 
                                     <div class="cart-inner pull-right">
                                         <h3> Sacola</h3>
+
+
                                         <a>
                                             <span id="cart-total"> 0 item(s) - R$0.00 </span>
                                             <i class="fa fa-angle-down"></i>
@@ -65,8 +65,8 @@
 
 
                                                 <div class="actions">
-                                                    <button type="button" title="Confira" class="button" onclick="setLocation('js/carrinho/')"><span><span>Confira</span></span></button>
-                                                    <a class="view-cart" href="js/carrinho/" title="Ver sacola">Ver sacola</a>
+                                                    <button type="button" title="Confira" class="button" ><span><span>Confira</span></span></button>
+                                                    <a class="view-cart" href="#" title="Ver sacola">Ver sacola</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,6 +85,7 @@
             </div>
         </div>
     </section>
+
 <!--    FIN SECTION HEADER -->
 
 
@@ -94,15 +95,16 @@
                <a href="#" title="" ><img class="" src="images/logo.png" /> </a>
         </div>
 
-        <div id="menu" class="menu_list">
-        <ul>
-            <li><a rel="nofollow" href="#" title="" > Home</a> </li>
-            <li><a rel="nofollow" href="#" title="" > Produtos</a> </li>
-            <li><a rel="nofollow" href="#" title="" > fac</a> </li>
-            <li><a rel="nofollow" href="#" title="" > link</a> </li>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+            <ul class="nav navbar-nav megamenu">
+                <li class=" active" > <a href=""><span class="menu-title">Home</span></a></li>
+
+                <li class="parent dropdown full-width aligned-left " ><a rel="nofollow" href="#" title="" > Produtos</a></li>
+                <li><a rel="nofollow" href="#" title="" > fac</a> </li>
+                <li><a rel="nofollow" href="#" title="" > link</a> </li>
             <li><a rel="nofollow" href="#" title="" > Contato</a> </li>
         </ul>
-
 
         </div>
     </section>

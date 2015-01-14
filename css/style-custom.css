@@ -12,7 +12,7 @@
 .newslatterx input{display: inline;}
 .clear{clear: both;}
 
-.fontzero{font-size: 0%;}
+.fontzero{font-size: 0em;}
 
 ul{list-style: none;}
 .lista_novos li,.lista_anterior li{display: inline-block; margin: 0px;}
