@@ -20,14 +20,16 @@
 
 <!--código do otoniel pra ser complementado -->
 <section>
+    <!-- SECTION COM  CONTEÚDO PRINCIPAL DO SITE -->
     <section id="header" class="header">
+<!--        SECTION HEADER -->
        <div class="topo_site" id="topbar">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6">
                         <h1>
                             <span>Bem vindo, Visitante! Vocẽ pode</span><a href="#"> iniciar seção </a>ou
-                            <a href="#">  cadastrar</a>
+                            <a href="#"> cadastrar</a>
                         </h1>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6">
@@ -36,7 +38,7 @@
                                 <div class="heading hidden-xs hidden-sm">
 
                                     <div class="cart-inner pull-right">
-                                        <h3>Sacola</h3>
+                                        <h3> Sacola</h3>
                                         <a>
                                             <span id="cart-total"> 0 item(s) - R$0.00 </span>
                                             <i class="fa fa-angle-down"></i>
@@ -83,6 +85,7 @@
             </div>
         </div>
     </section>
+<!--    FIN SECTION HEADER -->
 
 
     <section>
@@ -93,11 +96,11 @@
 
         <div id="menu" class="menu_list">
         <ul>
-            <li><a href="#" title="" > Home</a> </li>
-            <li><a href="#" title="" > Produtos</a> </li>
-            <li><a href="#" title="" > fac</a> </li>
-            <li><a href="#" title="" > link</a> </li>
-            <li><a href="#" title="" > Contato</a> </li>
+            <li><a rel="nofollow" href="#" title="" > Home</a> </li>
+            <li><a rel="nofollow" href="#" title="" > Produtos</a> </li>
+            <li><a rel="nofollow" href="#" title="" > fac</a> </li>
+            <li><a rel="nofollow" href="#" title="" > link</a> </li>
+            <li><a rel="nofollow" href="#" title="" > Contato</a> </li>
         </ul>
 
 
@@ -131,26 +134,28 @@
             <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
                 text-align: right; line-height: 36px; font-size: 30px;
                     color: #FFFFFF;">
-               Texto escolhido pelo ciente para ser inserido
+               A melhor Escolha em roupas femininas.
             </div>
         </div>
         <div>
             <img u="image" src="img/1920/purple.jpg" />
             <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
                 text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">Touch Swipe Slider
+                    color: #FFFFFF;">Off Lord Jeans
             </div>
             <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
                 text-align: left; line-height: 36px; font-size: 30px;
                     color: #FFFFFF;">
-                Texto escolhido pelo ciente para ser inserido
+                Roupas de ótima qualidade.
             </div>
         </div>
         <div>
             <img u="image" src="img/1920/blue.jpg" />
             <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
                 text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">Touch Swipe Slider
+                    color: #FFFFFF;">
+<!--                Texto principal do slide -->
+                Texto. do slide.
             </div>
             <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
                 text-align: right; line-height: 36px; font-size: 30px;
@@ -326,7 +331,10 @@
         </section>
         <div class="clear"></div>
     </footer>
+
+    <!--FINALIZAÇÃO DA SECTION GERAL -->
 </section>
+
 </body>
 
 </html>
