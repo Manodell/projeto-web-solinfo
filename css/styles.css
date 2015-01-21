@@ -4141,30 +4141,36 @@ body.layout-boxed-lg #page {
     color: white;
 }
 #footer p {
-    margin: 20px  0 0 8px;
-    font-size: 25px;
-    text-align: center;
-    color: white;
+  margin: 20px  0 0 8px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
 }
 #footer .redes{
 
 
 
-}
-#footer .redes span{
-    color: #ffffff;float: left;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
 
 }
+#footer .redes span{
+  color: #ffffff;
+  float: left;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+}
 #footer .redes img{
-margin: 5px;
+  float: none;
+
+  padding: 0 0 0 10px;
+}
+#footer .logo{
+    margin: 0 auto;
+
 }
 #footer .logo img{
   background: #ffffff;
-  margin: 10px 0 10px 0;
-  padding: 4px;
+  padding: 5px;
   width: 100%;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -5659,6 +5665,12 @@ div.verticalmenu .dropdown-menu .action {
   color: #000000;
   text-align: center;
 }
+.productcarousel .block-title h3{
+    color: #5ae53d;
+}
+.productcarousel2 .block-title h3{
+    color: #19aabe;
+}
 .productcarousel .block-title span, .ves-brandcarousel .block-title span {
   background-color: transparent!important;
   padding: 13px 20px!important;
@@ -6200,11 +6212,11 @@ span.created-date, span.author, span.blog-category {
 }
 .price-box .price-old .price, .price-box .old-price .price {
   text-decoration: line-through;
-  color: #555555;
+  color: #ab3a09;
   font-size: 15px;
 }
 .price-box .special-price .price, .price-box .regular-price .price {
-  color: black;
+  color: #529744;
   font-weight: bold;
   margin-right: 5px;
 }
@@ -6345,6 +6357,8 @@ span.created-date, span.author, span.blog-category {
   font-weight: 400;
   text-decoration: none;
 }
+
+/* cor do nome dos produtos*/
 .product-block .name a:hover {
   color: #000000!important;
 }
@@ -7686,7 +7700,7 @@ body,
 }
 /* cor de hover produto*/
 .product-block.block2:hover .product-meta {
-    background: #ffce58;
+    background: none repeat scroll 0 0 rgba(13, 158, 178, 0.7);
 }
 .product-block:hover .product-meta .name a {
   color: #ffffff;
