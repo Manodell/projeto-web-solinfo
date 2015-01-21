@@ -25,11 +25,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6 box-accountlink">
-                    <div class="quick-access pull-left hidden-xs hidden-md">
-                    <span class="welcome-msg">Bem vindo, Visitante! Vocẽ pode <a
-                            title="Faça o seu Login e Compre com Segurança" href="#"> iniciar seção </a>ou
+                    <div class="quick-access pull-left">
+                    <span class="welcome-msg hidden-xs hidden-sm">Bem vindo, Visitante! Vocẽ pode</span>
+                        <a title="Faça o seu Login e Compre com Segurança" href="#"> iniciar seção
+                        </a>ou
                         <a title="Faça o Seu cadastro e Aquira Hoje mesmo os produtos da Off Lord." href="#">
-                            cadastrar</a></span>
+                            cadastrar
+                        </a>
+
 
                     </div>
 
@@ -39,7 +42,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-5 col-xs-6">
                     <div class="cart-top">
                         <div class="clearfix dropdown" id="cart">
-                            <div class="heading hidden-xs hidden-sm">
+                            <div class="heading hidden-xs">
                                 <div class="cart-inner pull-right">
                                     <h3>Sacola</h3>
                                     <a><span id="cart-total">
@@ -48,12 +51,13 @@
                                     </a>
                                 </div>
                                 <div class="pull-right">
-                                    <div class="icon-cart"><img title="" alt="Sacola de compras"  src="images/open_bag.png"/></div>
+                                    <div class="icon-cart"><img title="" alt="Sacola de compras"
+                                                                src="images/open_bag.png"/></div>
                                 </div>
                             </div>
 
-                            <div class="hidden-lg hidden-md dropdown-toggle">
-                                <a><img title="" alt="Sacola de compras"  src="images/open_bag.png"/></a>
+                            <div class=" hidden-sm hidden-lg hidden-md">
+                                <a><img title="" alt="Sacola de compras" src="images/open_bag.png" /></a>
                             </div>
                             <div class="inner-toggle">
                                 <div class="content dropdown-menu">
@@ -74,9 +78,6 @@
                                 </div>
                             </div>
                         </div>
-                        <script type="text/javascript">
-                            text_confirm_delete_item = "Are you sure you would like to remove this item from the shopping cart?";
-                        </script>
                     </div>
 
                 </div>
@@ -89,70 +90,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-9 logo inner">
-                    <div id="logo-theme" class="logo-store"><strong class="logo-title">OffLord</strong><a href="#"
-                                                                                                          title="OffLord"
-                                                                                                          class="logo"><img
-                                src="images/logo.png" alt="OffLord"/></a></div>
+                    <div id="logo-theme" class="logo-store">
+                        <strong class="logo-title">OffLord</strong>
+                        <a href="#" title="OffLord" class="logo">
+                            <img class="img-responsive" src="images/logo.png" alt="OffLord"/>
+                        </a>
+                    </div>
 
                 </div>
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-3 inner">
-                    <div id="ves-mainnav" class="pull-right">
-                        <div class="ves-megamenu">
-                            <div class="navbar navbar-inverse">
-                                <div id="mainmenutop" class="megamenu" role="navigation">
-                                    <div class="navbar">
-                                        <a href="javascript:;" data-target=".navbar-collapse" data-toggle="collapse"
-                                           class="navbar-toggle">
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </a>
 
-                                        <div class="collapse navbar-collapse navbar-ex1-collapse">
-                                            <ul class="nav navbar-nav megamenu">
-                                                <li class=" active">
-                                                    <a href=""><span class="menu-title">Home</span></a></li>
-                                                <li class="parent dropdown full-width aligned-left ">
-                                                    <a class="dropdown-toggle" data-toggle="dropdown"
-                                                       href="http://venusdemo.com/magento/azshop/index.php/categories.html"><span
-                                                            class="menu-title">Categories</span></a>
-                                                </li>
-                                                <li class=" ">
-                                                    <a href="http://venusdemo.com/magento/azshop/index.php/accessories.html"><span
-                                                            class="menu-title">Accessories</span></a></li>
-                                                <li class=" ">
-                                                    <a href="http://venusdemo.com/magento/azshop/index.php/men-7.html"><span
-                                                            class="menu-title">Men</span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            jQuery(window).ready(function () {
+                        <nav>
+                            <ul class="nav nav-pills pull-right">
+                                <li role="presentation">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#">Categorias</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#">Empresa</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#">Contato</a>
+                                </li>
+                            </ul>
+                        </nav>
 
-                                /*  Fix First Click Menu */
-                                jQuery(document.body).on('click', '#mainmenutop [data-toggle="dropdown"]', function (event) {
-                                    event.stopImmediatePropagation();
-                                    jQuery(this).parent().show();
-                                    if (!jQuery(this).parent().hasClass('open') && this.href && this.href != '#') {
-                                        window.location.href = this.href;
-                                    }
-
-                                });
-                                jQuery(document.body).on('dblclick', '#mainmenutop [data-toggle="dropdown"]', function (event) {
-                                    event.stopImmediatePropagation();
-                                    jQuery(this).parent().show();
-                                    if (!jQuery(this).parent().hasClass('open') && this.href && this.href != '#') {
-                                        window.location.href = this.href;
-                                    }
-
-                                });
-                            });
-                        </script>
-                    </div>
                 </div>
             </div>
         </div>
@@ -321,115 +286,713 @@
 
 
 </section>
-<!--CONTENT coloquei section para ter uma melhor divisão do conteudo do site em 3 partes-->
-<section>
-    <div class="container center-block">
 
-        <h1><span><h1 class="text-center h1_lista_novos">Produtos em Ofertas</h1></span>
-            <ul class="lista_novos">
-
-                <li class=""><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <li class=""><img src="images/product002_2.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <li class=""><img src="images/product003_4.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <li class=""><img src="images/product004_3.jpg" data-src="holder.js/300x300" alt="..."></li>
-
-
-                <h3>Thumbnail label</h3>
-
-                <p>...</p>
-
-                <p><a href="#" class="">Button</a> <a href="#" class="">Button</a></p>
-            </ul>
-
-
-            <div class="clear"></div>
-    </div>
-</section>
-
-<section class="center-block">
+<section id="columns">
     <div class="container">
-        <h1 class="text-center">MAIS VISTOS</h1>
-        <ul class="lista_anterior">
-            <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-            <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-            <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-            <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-            <h3>Thumbnail label</h3>
+        <div class="row">
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div id="content">
+<div class=" block productcarousel" id="module5707280431419958629">
+<div class="block-title">
+    <h3>Produtos em Ofertas</h3>
 
-            <p>...</p>
+    <div class="pretext"></div>
+</div>
+<div class="block-content">
+<div class="box-products carousel" id="productcarousel5707280431419958629">
+<div class="carousel-inner">
 
-            <p><a href="#" class="">Button</a> <a href="#" class="">Button</a></p>
-        </ul>
+<div class="item first active product-grid no-margin">
+
+<div class="row products-row">
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item first ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
 
 
-        <div class="clear"></div>
-    </div>
-</section>
-<section class="container">
-    <div class="col-lg-7 main_newsletter">
-        <h1 class="text-center">NEWSLETTER</h1>
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
 
-        <p>Cadastre-se para receber novidades da moda</p>
+                    </a>
 
-        <form class="form-inline" role="form">
-            <div class="form-group input-group-lg">
-                <label class="sr-only" for="exampleInputName">Password</label>
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Entre com seu nome">
-            </div>
-            <div class="form-group">
-                <div class="input-group input-group-lg">
-                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
 
-                    <div class="input-group-addon">@</div>
-                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Entre com seu email">
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
                 </div>
             </div>
 
-            <div class="btn-group" role="group" aria-label="...">
-                <button type="submit" class="btn btn-primary btn-xs">Cadastre-se</button>
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
 
             </div>
-
-        </form>
-
-        <div class="clear"></div>
+        </div>
     </div>
-    <div class="col-lg-5 text-center main_cartoes">
-        <h1>FACILIDADE PARA PAGAR</h1>
+</div>
 
-        <p>Parcele seua s compras</p>
-        <img src="images/cartoesx.png" title="cartoes"/>
 
-        <div class="clear"></div>
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product006_1.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item last product-col  ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="productcarousel2 block productcarousel" id="module670609331419958630">
+<div class="block-title">
+    <h3>MAIS VISTOS</h3>
+
+    <div class="pretext"></div>
+</div>
+<div class="block-content">
+<div class="box-products carousel" id="productcarousel2670609331419958630">
+<div class="carousel-inner">
+
+<div class="item first active product-grid no-margin">
+
+<div class="row products-row">
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item first ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product006_1.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product006_1.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item last product-col  ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.html"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Add to Cart" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.html"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.html"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</section>
+</div>
+</div>
+</section>
+
+
+<section class="contentbottom">
+    <div class="container">
+        <div class="row custom-static">
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <div class="abs-left">
+                    <div class="block block-subscribe">
+                        <div class="block-title">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <form id="newsletter-validate-detail" method="post" action="new/">
+                            <div class="block-content">
+                                <div class="form-subscribe-header">
+                                    <label for="newsletter">Cadastre-se e receba todas as novidades.</label>
+                                </div>
+                                <div class="input-box">
+                                    <input id="newsletter" class="input-text required-entry validate-text form-control inputnome" type="text" title="Seu nome" placeholder="Seu nome..." name="nome" />
+                                    <input id="newsletter" class="rtl input-text required-entry validate-email form-control inputemail" type="email" title="Cadastre-se" placeholder="Seu email..." name="email" />
+                                </div>
+                                <div class="actions">
+                                    <button class="button" title="Enviar" type="submit">
+                                        <span>
+                                            <span>Enviar</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <div class="abs-right">
+                    <div class="block block-cartoes">
+                        <div class="block-title">
+                            <h3>Facilidade para pagar</h3>
+
+                            <h4>Parcele suas compras</h4>
+                        </div>
+                        <img src="images/cartoes.png" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-<!--CONTENT END-->
-<footer class="container-fluid bg-light">
-    <section class="container">
-        <h1 class="fontzero" title="home">OFFLORD FOOTER</h1>
-        <article>
-            <h1 class="col-lg-4 main_social">SIGA, COMPARTILHE</h1>
-            <ul>
-                <li><a title="rede 01" href="Rede01">Rede 01</a></li>
-                <li><a title="rede 02" href="Rede02">Rede 02</a></li>
-                <li><a title="rede 03" href="Rede03">Rede 03</a></li>
-            </ul>
-        </article>
-        <h2 class="col-lg-4 main_logo_footer">
-            <a class="fontzero" title="home" href="index.html"><img src="images/logo.png"/>Home Offlord</a>
-        </h2>
-        <nav class="col-lg-4 main_nav">
-            <h1 class="">Mais sobre a OffLord</h1>
-            <ul>
-                <li><a title="Qualidade" href="#qualidade"></a></li>
-                <li><a title="Compromisso" href="#compromisso"></a></li>
-            </ul>
-        </nav>
-    </section>
-    <div class="clear"></div>
-</footer>
 
-<!--FINALIZAÇÃO DA SECTION GERAL -->
+<section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="redes col-lg-6 col-md-6 col-sm-9 col-xs-12">
+                    <a href="#">
+                        <span>Siga, Compartilhe</span>
+                    </a>
+                </div>
+                <div class="redes col-lg-3 col-md-3 col-sm-9 col-xs-12">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/facebook-box-blue.png" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/instagram-box.png" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a href="#"><img class="" src="images/logo.png" /></a>
+                </div>
+                <div class="direitos col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <p><span>Off Lord - Todos os direitos reservados. </span>Rua 67a n 95 SL 01 Setor Norte Ferroviário (62)3213-0334</p>
+
+                    <p><a href="#" title="Off Lord">www.offlord.com.br</a></p>
+                </div>
+            </div>
+        </div>
+</section>
+
 </section>
 
 </body>

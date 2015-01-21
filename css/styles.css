@@ -3285,8 +3285,6 @@ table tbody td .option-value {
   left: auto;
 }
 .block .block-title h3::after {
-  content: "\f006";
-  font-family: "FontAwesome";
   font-size: 18px;
   background: #ffffff;
   position: absolute;
@@ -3562,7 +3560,7 @@ table tbody td .option-value {
 #footer .block .block-content {
   border: none;
   padding: 0;
-  background: transparent;
+  background: #8f5a91;
 }
 
 /******************************************************
@@ -4075,39 +4073,17 @@ body.layout-boxed-lg #page {
 
 .custom-static {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
+  background: #0d9eb2;
 }
 .custom-static h3 {
-  margin-bottom: 20px;
-  line-height: 20px;
-  font-family: "PlayfairDisplay-Black";
+  margin-bottom: 10px;
+  line-height: 10px;
 }
 .custom-static .abs-left, .custom-static .abs-right {
-  padding: 6% 12%;
-  min-height: 280px;
-  color: #777777;
-}
-.custom-static .abs-left {
-  background: #ffffff;
-  border: 10px solid transparent;
-  -webkit-border-image: url("../images/border-abs-left.png") 10 10 round;
-  /* Safari 3.1-5 */
-  -o-border-image: url("../images/border-abs-left.png") 10 10 round;
-  /* Opera 11-12.1 */
-  -ms-border-image: url("../images/border-abs-left.png") 10 10 round;
-  /* Opera 11-12.1 */
-  border-image: url("../images/border-abs-left.png") 10 10 round;
-}
-.custom-static .abs-right {
-  background: url("../images/bg-custom-static.png") no-repeat scroll center top;
-  border: 10px solid transparent;
-  -webkit-border-image: url("../images/border-abs-right.png") 10 10 round;
-  /* Safari 3.1-5 */
-  -o-border-image: url("../images/border-abs-right.png") 10 10 round;
-  /* Opera 11-12.1 */
-  -ms-border-image: url("../images/border-abs-left.png") 10 10 round;
-  /* Opera 11-12.1 */
-  border-image: url("../images/border-abs-right.png") 10 10 round;
+  padding: 2% 0%;
+  min-height: 180px;
+  color: #ffffff;
 }
 .custom-static .abs-right .line {
   background: #dddddd;
@@ -4120,7 +4096,7 @@ body.layout-boxed-lg #page {
 /*end*/
 /* FOOTER */
 #footer {
-  background: white;
+  background: #BA11BF;
   min-height: 90px;
   color: #6e6e6e;
   font-size: 13px;
@@ -4128,6 +4104,7 @@ body.layout-boxed-lg #page {
   padding-top: 5px;
   position: relative;
 }
+
 #footer:after {
   display: block;
   content: ".";
@@ -4138,7 +4115,7 @@ body.layout-boxed-lg #page {
   overflow: hidden;
 }
 #footer::after {
-  background: url("../images/border1.png") repeat-x;
+  background: none;
   content: "";
   position: absolute;
   height: 5px;
@@ -4150,23 +4127,55 @@ body.layout-boxed-lg #page {
 }
 #footer ul li, #footer ol li {
   padding: 5px 0px;
+  display: inline-block;
 }
 #footer h3 {
   padding-bottom: 15px;
   font-size: 12px;
   font-family: "PlayfairDisplay-Black";
 }
-#footer p {
-  margin: 0 0 8px;
-}
 #footer a {
-  -webkit-transition: all 0.1s ease 0s;
-  transition: all 0.1s ease 0s;
+    margin: 20px  0 0 8px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+#footer p {
+    margin: 20px  0 0 8px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+#footer .redes{
+
+
+
+}
+#footer .redes span{
+    color: #ffffff;float: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#footer .redes img{
+margin: 5px;
+}
+#footer .logo img{
+  background: #ffffff;
+  margin: 10px 0 10px 0;
+  padding: 4px;
+  width: 100%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+#footer .direitos span{
+  text-transform: uppercase;
 }
 
 .footer-center {
   position: relative;
-  background: white;
 }
 .footer-center .inner {
   background: transparent;
@@ -5284,38 +5293,62 @@ div.verticalmenu .dropdown-menu .action {
   padding-right: 5px;
   padding-left: inherit;
 }
-
+.contentbottom{
+    background: #0d9eb2;
+}
 .block-subscribe .block-title h3 {
-  font-size: 15px;
+  position:relative;
+  left:50%;
+  color: #ffffff;
+  font-size: 20px;
   line-height: 20px;
   padding-bottom: 0;
+}
+.block-subscribe .block-title h4 {
+    position:relative;
+    left:50%;
+    color: #ffffff;
+    font-size: 12px;
+    padding-bottom: 0;
 }
 .block-subscribe .block-title h3::before, .block-subscribe .block-title h3::after {
   content: "";
   background: none;
 }
 .block-subscribe label {
-  color: #6e6e6e;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.block-subscribe div.block-content {
+    background: #0d9eb2;
+}
+.block-subscribe {
+    width: 50%;
+    position: relative;
+    float: left;
 }
 .block-subscribe .input-box {
-  width: 74%;
-  float: left;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+.block-subscribe .input-box .inputnome{
+    float: left;
 }
 .rtl .block-subscribe .input-box {
   float: right;
 }
 .block-subscribe .input-box input {
   border: 1px solid #dddddd;
+  margin: 0 15px 0 15px;
   box-shadow: none!important;
 }
 .block-subscribe .input-box input:focus {
   border-color: #ebebeb;
 }
 .block-subscribe .actions {
-  width: 25%;
   float: left;
-  margin-left: 1px;
+  margin-left: 15px;
   text-align: left;
 }
 .rtl .block-subscribe .actions {
@@ -5333,6 +5366,27 @@ div.verticalmenu .dropdown-menu .action {
 }
 .block-subscribe .validation-advice {
   padding-top: 10px;
+}
+
+/*block de cartoes  */
+
+.block-cartoes img{
+    width: 80%;
+}
+.block-cartoes .block-title h3 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 0;
+}
+.block-cartoes .block-title h4 {
+    color: #ffffff;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.block-cartoes .block-title h3::before, .block-cartoes .block-title h3::after {
+    content: "";
+    background: none;
 }
 
 /* back top top */
@@ -5590,7 +5644,7 @@ div.verticalmenu .dropdown-menu .action {
   transition: all 0.3s ease 0s;
 }
 .tab-content .carousel-control.left:hover, .tab-content .carousel-control.right:hover {
-  background: #99ce58;
+  background: red;
   color: white;
 }
 .tab-content .carousel-control.left {
@@ -5639,7 +5693,7 @@ div.verticalmenu .dropdown-menu .action {
 }
 
 .productcarousel2 .block-title h3::after {
-  content: "\f02b";
+
 }
 
 .productcarousel3 .block-title h3::after {
@@ -7630,6 +7684,10 @@ body,
 .product-block:hover .product-meta {
   background: #99ce58;
 }
+/* cor de hover produto*/
+.product-block.block2:hover .product-meta {
+    background: #ffce58;
+}
 .product-block:hover .product-meta .name a {
   color: #ffffff;
 }
@@ -7887,7 +7945,7 @@ body,
   }
 
   .footer-top {
-    max-height: 600px;
+    max-height: 200px;
   }
 
   #footer h3 {
