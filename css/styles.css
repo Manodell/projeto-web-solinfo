@@ -3937,6 +3937,7 @@ body.layout-boxed-lg #page {
 /*
 * SLIDESHOW 
 */
+
 #ves-slideshow .lush-slider {
   border: none!important;
   overflow: hidden!important;
@@ -4081,7 +4082,7 @@ body.layout-boxed-lg #page {
   line-height: 10px;
 }
 .custom-static .abs-left, .custom-static .abs-right {
-  padding: 2% 0%;
+  padding: 2% 0 0 0;
   min-height: 180px;
   color: #ffffff;
 }
@@ -4096,7 +4097,7 @@ body.layout-boxed-lg #page {
 /*end*/
 /* FOOTER */
 #footer {
-  background: #BA11BF;
+  background: #ba11bf;
   min-height: 90px;
   color: #6e6e6e;
   font-size: 13px;
@@ -4147,31 +4148,26 @@ body.layout-boxed-lg #page {
   color: white;
 }
 #footer .redes{
-
-
-
-
+    text-align: center;
 }
 #footer .redes span{
   color: #ffffff;
-  float: left;
+  float: none;
   text-transform: uppercase;
   font-size: 35px;
   font-weight: bold;
 }
 #footer .redes img{
   float: none;
-
-  padding: 0 0 0 10px;
 }
 #footer .logo{
-    margin: 0 auto;
-
+   margin: 0;
+   text-align: center;
 }
 #footer .logo img{
   background: #ffffff;
   padding: 5px;
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -5172,9 +5168,9 @@ div.verticalmenu .dropdown-menu .action {
 .cart-top #cart .content {
   color: #777777;
   border: 0!important;
-  min-width: 275px;
+  min-width: 200px;
   position: absolute;
-  right: 0;
+  right: auto;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -5303,8 +5299,7 @@ div.verticalmenu .dropdown-menu .action {
     background: #0d9eb2;
 }
 .block-subscribe .block-title h3 {
-  position:relative;
-  left:50%;
+  text-align: center;
   color: #ffffff;
   font-size: 20px;
   line-height: 20px;
@@ -5327,15 +5322,15 @@ div.verticalmenu .dropdown-menu .action {
   margin-bottom: 10px;
 }
 .block-subscribe div.block-content {
-    background: #0d9eb2;
+    background: none;
 }
 .block-subscribe {
-    width: 50%;
+    width: 100%;
     position: relative;
     float: left;
 }
 .block-subscribe .input-box {
-  width: 100%;
+  width: 45%;
   margin: 0 0 10px 0;
 }
 .block-subscribe .input-box .inputnome{
@@ -5377,7 +5372,7 @@ div.verticalmenu .dropdown-menu .action {
 /*block de cartoes  */
 
 .block-cartoes img{
-    width: 80%;
+    width: 100%;
 }
 .block-cartoes .block-title h3 {
     color: #ffffff;

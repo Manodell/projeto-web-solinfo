@@ -5,7 +5,6 @@
     <Meta name="viewport" content="width =-largura do dispositivo, escala inicial = 1">
     <title>Off Lord Jeans - Loja Virtual</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css" media="screen"/>
     <link rel="stylesheet" href="css/style-custom.css" media="screen"/>
     <link rel="stylesheet" href="css/font-awesome.min.css" media="screen"/>
@@ -17,8 +16,6 @@
 
 </head>
 <body>
-
-<!--código do otoniel pra ser complementado -->
 <section><!-- SECTION COM  CONTEÚDO PRINCIPAL DO SITE -->
 <section id="header" class="header">
     <div id="topbar" class="topo_site">
@@ -32,60 +29,39 @@
                         <a title="Faça o Seu cadastro e Aquira Hoje mesmo os produtos da Off Lord." href="#">
                             cadastrar
                         </a>
-
-
                     </div>
-
-
                 </div>
-
                 <div class="col-lg-6 col-md-6 col-sm-5 col-xs-6">
                     <div class="cart-top">
                         <div class="clearfix dropdown" id="cart">
                             <div class="heading hidden-xs">
                                 <div class="cart-inner pull-right">
                                     <h3>Sacola</h3>
-                                    <a><span id="cart-total">
-                 0 item(s) - $0.00            </span>
+                                    <a href="carrinho.html"><span id="cart-total">
+                                        0 item(s) - $0.00
+                                    </span>
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                 </div>
                                 <div class="pull-right">
-                                    <div class="icon-cart"><img title="" alt="Sacola de compras"
-                                                                src="images/open_bag.png"/></div>
-                                </div>
-                            </div>
-
-                            <div class=" hidden-sm hidden-lg hidden-md">
-                                <a><img title="" alt="Sacola de compras" src="images/open_bag.png" /></a>
-                            </div>
-                            <div class="inner-toggle">
-                                <div class="content dropdown-menu">
-                                    <div class=" block-cart">
-
-                                        <div class="block-content">
-
-                                            <p class="empty">Você não possui itens em sua sacola.</p>
-
-
-                                            <div class="actions">
-                                                <button type="button" title="Confira" class="button">
-                                                    <span><span>Confira</span></span></button>
-                                                <a class="view-cart" href="#" title="Ver sacola">Ver sacola</a>
-                                            </div>
-                                        </div>
+                                    <div class="icon-cart">
+                                        <a href="carrinho.html">
+                                            <img title="Sacola de compras" alt="Sacola de compras" src="images/open_bag.png" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+                            <div class=" hidden-sm hidden-lg hidden-md">
+                                <a href="carrinho.html">
+                                    <img title="Sacola de compras" alt="Sacola de compras" src="images/open_bag.png" />
+                                </a>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-
-
     <div id="header-main">
         <div class="container">
             <div class="row">
@@ -96,18 +72,15 @@
                             <img class="img-responsive" src="images/logo.png" alt="OffLord"/>
                         </a>
                     </div>
-
                 </div>
-
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-3 inner">
-
                         <nav>
                             <ul class="nav nav-pills pull-right">
                                 <li role="presentation">
-                                    <a href="#">Home</a>
+                                    <a href="index.html">Home</a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#">Categorias</a>
+                                    <a href="categorias.html">Categorias</a>
                                 </li>
                                 <li role="presentation">
                                     <a href="#">Empresa</a>
@@ -117,174 +90,65 @@
                                 </li>
                             </ul>
                         </nav>
-
                 </div>
             </div>
         </div>
     </div>
-
-
-</section>
-
-<!--    FIN SECTION HEADER -->
-
-<section class="img_header">
-
-    <!-- INICIO DO SLIDE HOME PRINCIPAL   -->
-
-    <div id="slider1_container" style="position: relative; margin: 0 auto;
-    top: 0px; left: 0px; width: 1920px; height: 500px; overflow: hidden;">
+</section><!--    FIN SECTION HEADER -->
+<section>
+<!-- INICIO DO SLIDE HOME PRINCIPAL   -->
+    <div id="slider1_container">
         <!-- Loading Screen -->
-        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
-            top: 0px; left: 0px; width: 100%; height: 100%;">
+        <div u="loading" class="loading">
+            <div class="loading-icon1">
             </div>
-            <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
-            top: 0px; left: 0px; width: 100%; height: 100%;">
+            <div class="loading-icon2">
             </div>
         </div>
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1920px;
-        height: 500px; overflow: hidden;">
+        <div u="slides" class="u-slides">
             <div>
                 <img u="image" src="images/slider1.png"/>
-
-                <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
-                text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">
+                <div class="u-slides-cabecalho">algo aqui
                 </div>
-                <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                text-align: right; line-height: 36px; font-size: 30px;
-                    color: #FFFFFF;">
+                <div class="u-slides-texto">
                     A melhor Escolha em roupas femininas.
                 </div>
             </div>
             <div>
                 <img u="image" src="images/purple.jpg"/>
-
-                <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
-                text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">Off Lord Jeans
+                <div class="u-slides-cabecalho">Off Lord Jeans
                 </div>
-                <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                text-align: left; line-height: 36px; font-size: 30px;
-                    color: #FFFFFF;">
+                <div  class="u-slides-texto">
                     Roupas de ótima qualidade.
                 </div>
             </div>
             <div>
                 <img u="image" src="images/blue.jpg"/>
-
-                <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
-                text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">
+                <div class="u-slides-cabecalho">
                     <!--                Texto principal do slide -->
                     Texto. do slide.
                 </div>
-                <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                text-align: right; line-height: 36px; font-size: 30px;
-                    color: #c7254e;">
+                <div  class="u-slides-texto">
                     Texto escolhido pelo ciente para ser inserido
                 </div>
             </div>
         </div>
-
-        <!-- Bullet Navigator Skin Begin -->
-        <style>
-            /* jssor slider bullet navigator skin 21 css */
-            /*
-            .jssorb21 div           (normal)
-            .jssorb21 div:hover     (normal mouseover)
-            .jssorb21 .av           (active)
-            .jssorb21 .av:hover     (active mouseover)
-            .jssorb21 .dn           (mousedown)
-            */
-            .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
-                background: url(img/b21.png) no-repeat;
-                overflow: hidden;
-                cursor: pointer;
-            }
-
-            .jssorb21 div {
-                background-position: -5px -5px;
-            }
-
-            .jssorb21 div:hover, .jssorb21 .av:hover {
-                background-position: -35px -5px;
-            }
-
-            .jssorb21 .av {
-                background-position: -65px -5px;
-            }
-
-            .jssorb21 .dn, .jssorb21 .dn:hover {
-                background-position: -95px -5px;
-            }
-        </style>
         <!-- bullet navigator container -->
-        <div u="navigator" class="jssorb21" style="position: absolute; bottom: 26px; left: 6px;">
+        <div u="navigator" class="jssorb21">
             <!-- bullet navigator item prototype -->
-            <div u="prototype"
-                 style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+            <div u="prototype"></div>
         </div>
         <!-- Bullet Navigator Skin End -->
-
-        <!-- Arrow Navigator Skin Begin -->
-        <style>
-            /* jssor slider arrow navigator skin 21 css */
-            /*
-            .jssora21l              (normal)
-            .jssora21r              (normal)
-            .jssora21l:hover        (normal mouseover)
-            .jssora21r:hover        (normal mouseover)
-            .jssora21ldn            (mousedown)
-            .jssora21rdn            (mousedown)
-            */
-            .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
-                position: absolute;
-                cursor: pointer;
-                display: block;
-                background: url(img/a21.png) center center no-repeat;
-                overflow: hidden;
-            }
-
-            .jssora21l {
-                background-position: -3px -33px;
-            }
-
-            .jssora21r {
-                background-position: -63px -33px;
-            }
-
-            .jssora21l:hover {
-                background-position: -123px -33px;
-            }
-
-            .jssora21r:hover {
-                background-position: -183px -33px;
-            }
-
-            .jssora21ldn {
-                background-position: -243px -33px;
-            }
-
-            .jssora21rdn {
-                background-position: -303px -33px;
-            }
-        </style>
         <!-- Arrow Left -->
-    <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
+    <span u="arrowleft" class="jssora21l">
     </span>
         <!-- Arrow Right -->
-    <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px">
+    <span u="arrowright" class="jssora21r">
     </span>
         <!-- Arrow Navigator Skin End -->
-
     </div>
-
     <!-- FINALIZAÇÃO DO CÓDIGO DO SLIDER PRINCIPAL -->
-
-
 </section>
 
 <section id="columns">
@@ -918,7 +782,7 @@
 <section class="contentbottom">
     <div class="container">
         <div class="row custom-static">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="abs-left">
                     <div class="block block-subscribe">
                         <div class="block-title">
@@ -931,7 +795,7 @@
                                 </div>
                                 <div class="input-box">
                                     <input id="newsletter" class="input-text required-entry validate-text form-control inputnome" type="text" title="Seu nome" placeholder="Seu nome..." name="nome" />
-                                    <input id="newsletter" class="rtl input-text required-entry validate-email form-control inputemail" type="email" title="Cadastre-se" placeholder="Seu email..." name="email" />
+                                    <input id="newsletter" class="input-text required-entry validate-text form-control inputemail" type="email" title="Seu Email" placeholder="Seu email..." name="email" />
                                 </div>
                                 <div class="actions">
                                     <button class="button" title="Enviar" type="submit">
@@ -945,7 +809,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="abs-right">
                     <div class="block block-cartoes">
                         <div class="block-title">
@@ -965,11 +829,12 @@
 <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="redes col-lg-6 col-md-9 col-sm-12 col-xs-12">
+                <div class="redes col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <a href="#">
                         <span>Siga, Compartilhe</span>
                     </a>
-
+                </div>
+                <div class="redes col-lg-2 col-md-2 col-sm-12 col-xs-12">
                     <a href="#">
                         <img src="images/facebook-box-blue.png" />
                     </a>
@@ -978,7 +843,7 @@
                     </a>
 
                 </div>
-                <div class="logo col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="logo col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <a href="#"><img src="images/logo.png" /></a>
                 </div>
                 <div class="direitos col-lg-12 col-md-12 col-sm-12 col-xs-12">
