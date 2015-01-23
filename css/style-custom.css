@@ -142,13 +142,82 @@
 .jssora21rdn {
     background-position: -303px -33px;
 }
+/*Fonts do Header*/
+.header .cart-top h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: rgb( 0, 0, 0 );
+    font-weight: bold;
+    line-height: 0.5;
+    text-align: left;
+}
+.header .nav li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: rgb( 0, 0, 0 );
+    font-weight: bold;
+    line-height: 0.5;
+    text-align: center;
+}
+/*Font dos produtos*/
+.block .block-title {
+    font-size: 25px;
+}
+.carousel-inner .product-meta .name a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-align: center;
+}
 
-
+/*Font rodape*/
+.contentbottom .block h4, .contentbottom .block-content label{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+.contentbottom .actions span{
+    font-family: "Oswald", sans-serif;
+}
 .clear{clear: both;}
 
 .fontzero{font-size: 0em !important;;}
 
 ul{list-style: none;}
 .lista_novos li,.lista_anterior li{display: inline-block; margin: 0px;}
+/*
+ * Sidebar
+ */
 
+/* Hide for mobile, show later */
+.sidebar {
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
 

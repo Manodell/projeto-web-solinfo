@@ -4154,6 +4154,7 @@ body.layout-boxed-lg #page {
   color: #ffffff;
   float: none;
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   font-size: 35px;
   font-weight: bold;
 }
@@ -4172,10 +4173,18 @@ body.layout-boxed-lg #page {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
-#footer .direitos span{
+#footer .direitos span {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   text-transform: uppercase;
 }
-
+#footer .direitos a {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .footer-center {
   position: relative;
 }
@@ -4918,8 +4927,10 @@ div.verticalmenu .dropdown-menu .action {
   margin-right: 5px;
   margin-left: inherit;
 }
+/*Font Osvald*/
 #topbar .welcome-msg {
   padding-right: 15px;
+  font-family: 'Oswald', sans-serif;
 }
 .rtl #topbar .welcome-msg {
   padding-left: 15px;
@@ -5662,9 +5673,13 @@ div.verticalmenu .dropdown-menu .action {
 }
 .productcarousel .block-title h3{
     color: #5ae53d;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
 }
 .productcarousel2 .block-title h3{
     color: #19aabe;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
 }
 .productcarousel .block-title span, .ves-brandcarousel .block-title span {
   background-color: transparent!important;
