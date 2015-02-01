@@ -3280,6 +3280,15 @@ table tbody td .option-value {
   left: 0;
   bottom: 0;
 }
+.block .block-title-no h3::before {
+    background: none;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    left: 0;
+    bottom: 0;
+}
 .rtl .block .block-title h3::before {
   right: 0;
   left: auto;
@@ -4176,13 +4185,13 @@ body.layout-boxed-lg #page {
 #footer .direitos span {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
 }
 #footer .direitos a {
     font-family: "Oswald", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .footer-center {
@@ -5163,7 +5172,7 @@ div.verticalmenu .dropdown-menu .action {
   right: 0;
   left: auto;
 }
-.cart-top #cart .heading h3 {
+.cart-top #cart .heading span>.sacola {
   line-height: 15px;
   color: #ffffff;
   font-family: "raleway-bold";
@@ -5673,12 +5682,12 @@ div.verticalmenu .dropdown-menu .action {
 }
 .productcarousel .block-title h3{
     color: #5ae53d;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Oswald", sans-serif;
 }
 .productcarousel2 .block-title h3{
     color: #19aabe;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Oswald", sans-serif;
 }
 .productcarousel .block-title span, .ves-brandcarousel .block-title span {

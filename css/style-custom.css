@@ -155,7 +155,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     color: rgb( 0, 0, 0 );
-    font-weight: bold;
+    font-weight: 500;
     line-height: 0.5;
     text-align: center;
 }
@@ -181,7 +181,10 @@
 }
 .clear{clear: both;}
 
-.fontzero{font-size: 0em !important;;}
+.fontzero{
+    font-size: 0em !important;
+    display: none;
+}
 
 ul{list-style: none;}
 .lista_novos li,.lista_anterior li{display: inline-block; margin: 0px;}
@@ -197,11 +200,11 @@ ul{list-style: none;}
     left: 0;
     z-index: 1000;
     display: block;
-    padding: 20px;
+    padding: 20px 20px 0px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     background-color: #f5f5f5;
-    border-right: 1px solid #eee;
+
 }
 
 /* Sidebar navigation */
@@ -220,4 +223,28 @@ ul{list-style: none;}
     color: #fff;
     background-color: #428bca;
 }
+.banner-nav-sidebar > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0d9eb2;
+}
 
+.main{
+    padding: 50px 20px 0px;
+    float: left;
+}
+.contato{
+
+
+    }
+.contato h3{
+    margin: 30px;
+
+}
+.contato #contactForm{
+    margin: 30px;
+}
+
+.produto-show{
+    margin: 10px auto;
+}

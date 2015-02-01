@@ -1,332 +1,729 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <Meta  name = "viewport"  content = "width =-largura do dispositivo, escala inicial = 1" >
-    <title>Off Lord Jeans - Loja Virtual</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css" media="screen"/>
-    <link rel="stylesheet" href="css/style-custom.css" media="screen"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css" media="screen"/>
-    <script type="text/javascript" src="js/jquery.js"></script>
-
-    <script type="text/javascript" src="js/jssor.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-
-</head>
-<body>
-
-<!--código do otoniel pra ser complementado -->
+<?php include("header.php");?>
 <section>
-    <section id="header" class="header">
-       <div class="topo_site" id="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6">
-                        <h1>
-                            <span>Bem vindo, Visitante! Vocẽ pode</span><a href="#"> iniciar seção </a>ou
-                            <a href="#">  cadastrar</a>
-                        </h1>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6">
-                        <div class="cart-top">
-                            <div id="cart" class="clearfix dropdown">
-                                <div class="heading hidden-xs hidden-sm">
+<!-- INICIO DO SLIDE HOME PRINCIPAL   -->
+    <div id="slider1_container">
+        <!-- Loading Screen -->
+        <div u="loading" class="loading">
+            <div class="loading-icon1">
+            </div>
+            <div class="loading-icon2">
+            </div>
+        </div>
+        <!-- Slides Container -->
+        <div u="slides" class="u-slides">
+            <div>
+                <img u="image" src="images/slider1.png"/>
+                <div class="u-slides-cabecalho">algo aqui
+                </div>
+                <div class="u-slides-texto">
+                    A melhor Escolha em roupas femininas.
+                </div>
+            </div>
+            <div>
+                <img u="image" src="images/purple.jpg"/>
+                <div class="u-slides-cabecalho">Off Lord Jeans
+                </div>
+                <div  class="u-slides-texto">
+                    Roupas de ótima qualidade.
+                </div>
+            </div>
+            <div>
+                <img u="image" src="images/blue.jpg"/>
+                <div class="u-slides-cabecalho">
+                    <!--                Texto principal do slide -->
+                    Texto. do slide.
+                </div>
+                <div  class="u-slides-texto">
+                    Texto escolhido pelo ciente para ser inserido
+                </div>
+            </div>
+        </div>
+        <!-- bullet navigator container -->
+        <div u="navigator" class="jssorb21">
+            <!-- bullet navigator item prototype -->
+            <div u="prototype"></div>
+        </div>
+        <!-- Bullet Navigator Skin End -->
+        <!-- Arrow Left -->
+    <span u="arrowleft" class="jssora21l">
+    </span>
+        <!-- Arrow Right -->
+    <span u="arrowright" class="jssora21r">
+    </span>
+        <!-- Arrow Navigator Skin End -->
+    </div>
+    <!-- FINALIZAÇÃO DO CÓDIGO DO SLIDER PRINCIPAL -->
+</section>
 
-                                    <div class="cart-inner pull-right">
-                                        <h3>Sacola</h3>
-                                        <a>
-                                            <span id="cart-total"> 0 item(s) - R$0.00 </span>
-                                            <i class="fa fa-angle-down"></i>
-                                        </a>
-                                    </div>
-                                    <div class="pull-right">
-                                        <div class="icon-cart">
-                                            <img title="" alt="Sacola de compras"  src="images/open_bag.png"/>
-                                        </div>
-                                    </div>
+<section id="columns">
+    <div class="container">
+        <div class="row">
+<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div id="content">
+<div class=" block productcarousel" id="module5707280431419958629">
+<div class="block-title">
+    <h3>Produtos em Ofertas</h3>
 
-                                </div>
+    <div class="pretext"></div>
+</div>
+<div class="block-content">
+<div class="box-products carousel" id="productcarousel5707280431419958629">
+<div class="carousel-inner">
 
-                                <div class="hidden-lg hidden-md dropdown-toggle">
-                                    <a><i class="fa fa-shopping-cart"></i></a>
-                                </div>
-                                <div class="inner-toggle">
-                                    <div class="content dropdown-menu">
-                                        <div class=" block-cart">
+<div class="item first active product-grid no-margin">
 
-                                            <div class="block-content">
+<div class="row products-row">
 
-                                                <p class="empty">Você não possui itens em sua sacola.</p>
-
-
-                                                <div class="actions">
-                                                    <button type="button" title="Confira" class="button" onclick="setLocation('js/carrinho/')"><span><span>Confira</span></span></button>
-                                                    <a class="view-cart" href="js/carrinho/" title="Ver sacola">Ver sacola</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item first ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
 
 
-                        </div>
-                    </div>
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
 
 
                 </div>
-                <div class="clear"></div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
 
 
-    <section>
-        <div class="container">
-            <h1 class="fontzero">Off Lord Jeans - Loja Virtual</h1>
-               <a href="#" title="" ><img class="" src="images/logo.png" /> </a>
-        </div>
+            <div class="product-meta product-shop">
 
-        <div id="menu" class="menu_list">
-        <ul>
-            <li><a href="#" title="" > Home</a> </li>
-            <li><a href="#" title="" > Produtos</a> </li>
-            <li><a href="#" title="" > fac</a> </li>
-            <li><a href="#" title="" > link</a> </li>
-            <li><a href="#" title="" > Contato</a> </li>
-        </ul>
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
 
 
-        </div>
-    </section>
+                    <div class="price-box">
 
-    <section class="img_header">
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
 
-<!-- INICIO DO SLIDE HOME PRINCIPAL   -->
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
 
-        <div id="slider1_container" style="position: relative; margin: 0 auto;
-    top: 0px; left: 0px; width: 1920px; height: 500px; overflow: hidden;">
-    <!-- Loading Screen -->
-    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
-            top: 0px; left: 0px; width: 100%; height: 100%;">
-        </div>
-        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
-            top: 0px; left: 0px; width: 100%; height: 100%;">
-        </div>
-    </div>
-    <!-- Slides Container -->
-    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1920px;
-        height: 500px; overflow: hidden;">
-        <div>
-            <img u="image" src="images/slider1.png" />
-            <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
-                text-align: left; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">
-            </div>
-            <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                text-align: right; line-height: 36px; font-size: 30px;
-                    color: #FFFFFF;">
-               Texto escolhido pelo ciente para ser inserido
-            </div>
-        </div>
-        <div>
-            <img u="image" src="img/1920/purple.jpg" />
-            <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
-                text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">Touch Swipe Slider
-            </div>
-            <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                text-align: left; line-height: 36px; font-size: 30px;
-                    color: #FFFFFF;">
-                Texto escolhido pelo ciente para ser inserido
-            </div>
-        </div>
-        <div>
-            <img u="image" src="img/1920/blue.jpg" />
-            <div style="position: absolute; width: 500px; height: 120px; top: 30px; left: 30px; padding: 5px;
-                text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                    color: #FFFFFF;">Touch Swipe Slider
-            </div>
-            <div style="position: absolute; width: 500px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                text-align: right; line-height: 36px; font-size: 30px;
-                    color: #c7254e;">
-                Texto escolhido pelo ciente para ser inserido
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Bullet Navigator Skin Begin -->
-    <style>
-        /* jssor slider bullet navigator skin 21 css */
-        /*
-        .jssorb21 div           (normal)
-        .jssorb21 div:hover     (normal mouseover)
-        .jssorb21 .av           (active)
-        .jssorb21 .av:hover     (active mouseover)
-        .jssorb21 .dn           (mousedown)
-        */
-        .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
-        {
-            background: url(img/b21.png) no-repeat;
-            overflow:hidden;
-            cursor: pointer;
-        }
-        .jssorb21 div { background-position: -5px -5px; }
-        .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
-        .jssorb21 .av { background-position: -65px -5px; }
-        .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
-    </style>
-    <!-- bullet navigator container -->
-    <div u="navigator" class="jssorb21" style="position: absolute; bottom: 26px; left: 6px;">
-        <!-- bullet navigator item prototype -->
-        <div u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product006_1.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     </div>
-    <!-- Bullet Navigator Skin End -->
+</div>
 
-    <!-- Arrow Navigator Skin Begin -->
-    <style>
-        /* jssor slider arrow navigator skin 21 css */
-        /*
-        .jssora21l              (normal)
-        .jssora21r              (normal)
-        .jssora21l:hover        (normal mouseover)
-        .jssora21r:hover        (normal mouseover)
-        .jssora21ldn            (mousedown)
-        .jssora21rdn            (mousedown)
-        */
-        .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
-        {
-            position: absolute;
-            cursor: pointer;
-            display: block;
-            background: url(img/a21.png) center center no-repeat;
-            overflow: hidden;
-        }
-        .jssora21l { background-position: -3px -33px; }
-        .jssora21r { background-position: -63px -33px; }
-        .jssora21l:hover { background-position: -123px -33px; }
-        .jssora21r:hover { background-position: -183px -33px; }
-        .jssora21ldn { background-position: -243px -33px; }
-        .jssora21rdn { background-position: -303px -33px; }
-    </style>
-    <!-- Arrow Left -->
-    <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
-    </span>
-    <!-- Arrow Right -->
-    <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px">
-    </span>
-    <!-- Arrow Navigator Skin End -->
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item last product-col  ">
+    <div class="wrap-item">
+        <div class="product-block">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 </div>
 
-<!-- FINALIZAÇÃO DO CÓDIGO DO SLIDER PRINCIPAL -->
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="productcarousel2 block productcarousel" id="module670609331419958630">
+<div class="block-title">
+    <h3>MAIS VISTOS</h3>
+
+    <div class="pretext"></div>
+</div>
+<div class="block-content">
+<div class="box-products carousel" id="productcarousel2670609331419958630">
+<div class="carousel-inner">
+
+<div class="item first active product-grid no-margin">
+
+<div class="row products-row">
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item first ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
 
 
-    </section>
-<!--CONTENT coloquei section para ter uma melhor divisão do conteudo do site em 3 partes-->
-    <section>
-        <div class="container center-block">
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
 
-            <h1> <span><h1 class="text-center h1_lista_novos">Produtos em Ofertas</h1></span>
-                <ul class="lista_novos">
-
-                    <li class=""><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-                    <li class=""><img src="images/product002_2.jpg" data-src="holder.js/300x300" alt="..."></li>
-                    <li class=""><img src="images/product003_4.jpg" data-src="holder.js/300x300" alt="..."></li>
-                    <li class=""><img src="images/product004_3.jpg" data-src="holder.js/300x300" alt="..."></li>
+                    </a>
 
 
-                        <h3>Thumbnail label</h3>
-                        <p>...</p>
-                        <p><a href="#" class="">Button</a> <a href="#" class="">Button</a></p>
-                    </ul>
-
-
-            <div class="clear"></div>
-        </div>
-    </section>
-
-    <section class="center-block">
-        <div class="container">
-            <h1 class="text-center">MAIS VISTOS</h1>
-            <ul class="lista_anterior">
-                <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <li class="col-lg-3"><img src="images/product001.jpg" data-src="holder.js/300x300" alt="..."></li>
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="">Button</a> <a href="#" class="">Button</a></p>
-            </ul>
-
-
-            <div class="clear"></div>
-        </div>
-    </section>
-    <section class="container">
-        <div class="col-lg-7 main_newsletter">
-            <h1 class="text-center">NEWSLETTER</h1>
-            <p>Cadastre-se para receber novidades da moda</p>
-            <form class="form-inline" role="form">
-                <div class="form-group input-group-lg">
-                    <label class="sr-only" for="exampleInputName">Password</label>
-                    <input type="text" class="form-control" id="exampleInputName" placeholder="Entre com seu nome">
                 </div>
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                        <div class="input-group-addon">@</div>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Entre com seu email">
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
                     </div>
                 </div>
+            </div>
 
-                <div class="btn-group" role="group" aria-label="...">
-                    <button type="submit" class="btn btn-primary btn-xs">Cadastre-se</button>
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
 
                 </div>
 
-            </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-            <div class="clear"></div>
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product006_1.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-        <div class="col-lg-5 text-center main_cartoes">
-            <h1>FACILIDADE PARA PAGAR</h1>
-            <p>Parcele seua s compras</p>
-            <img src="images/cartoesx.png" title="cartoes"/>
-            <div class="clear"></div>
+    </div>
+</div>
+
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product006_1.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-    </section>
-<!--CONTENT END-->
-    <footer class="container-fluid bg-light">
-        <section class="container">
-            <h1 class="fontzero" title="home">OFFLORD FOOTER</h1>
-            <article>
-                <h1 class="col-lg-4 main_social">SIGA, COMPARTILHE</h1>
-                <ul>
-                    <li><a title="rede 01" href="Rede01">Rede 01</a></li>
-                    <li><a title="rede 02" href="Rede02">Rede 02</a></li>
-                    <li><a title="rede 03" href="Rede03">Rede 03</a></li>
-                </ul>
-            </article>
-            <h2 class="col-lg-4 main_logo_footer">
-                <a class="fontzero" title="home" href="index.php"><img src="images/logo.png" />Home Offlord</a>
-            </h2>
-            <nav class="col-lg-4 main_nav">
-                <h1 class="">Mais sobre a OffLord</h1>
-                <ul>
-                    <li><a title="Qualidade" href="#qualidade"></a></li>
-                    <li><a title="Compromisso" href="#compromisso"></a></li>
-                </ul>
-            </nav>
-        </section>
-        <div class="clear"></div>
-    </footer>
+    </div>
+</div>
+
+
+<div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item last product-col  ">
+    <div class="wrap-item">
+        <div class="product-block block2">
+            <div class="image ">
+                <div class="product-img img">
+                    <a href="produto.php"
+                       title="Detalhes do produto" class="product-image img">
+
+
+                        <img class="img-responsive"
+                             src="images/product001.jpg"
+                             width="279" height="380" alt="Detalhes do produto"/>
+
+                    </a>
+
+
+                </div>
+                <div class="action">
+                    <div class="add-to-cart">
+                        <button type="button" title="Comprar" class="btn btn-cart"
+                                onclick="addToCart('Produto')">
+                            <span>Comprar</span></button>
+
+                    </div>
+                    <div class="add-to-link">
+                        <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                           href="produto.php"><i
+                                class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                        <a href="lista de desejos.html"
+                           title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-meta product-shop">
+
+                <h3 class="product-name name"><a
+                        href="produto.php"
+                        title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                <div class="price">
+
+
+                    <div class="price-box">
+
+                        <p class="old-price">
+                            <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                        </p>
+
+                        <p class="special-price">
+                            <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
 </section>
-</body>
+</div>
+</div>
+</section>
 
-</html>
+
+<section class="contentbottom">
+    <div class="container">
+        <div class="row custom-static">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="abs-left">
+                    <div class="block block-subscribe">
+                        <div class="block-title">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <form id="newsletter-validate-detail" method="post" action="new/">
+                            <div class="block-content">
+                                <div class="form-subscribe-header">
+                                    <label for="newsletter">Cadastre-se e receba todas as novidades.</label>
+                                </div>
+                                <div class="input-box">
+                                    <input id="newsletter" class="input-text required-entry validate-text form-control inputnome" type="text" title="Seu nome" placeholder="Seu nome..." name="nome" />
+                                    <input id="newsletter" class="input-text required-entry validate-text form-control inputemail" type="email" title="Seu Email" placeholder="Seu email..." name="email" />
+                                </div>
+                                <div class="actions">
+                                    <button class="button" title="Enviar" type="submit">
+                                        <span>
+                                            <span>Cadastre-se</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="abs-right">
+                    <div class="block block-cartoes">
+                        <div class="block-title">
+                            <h3>Facilidade para pagar</h3>
+
+                            <h4>Parcele suas compras</h4>
+                        </div>
+                        <img src="images/cartoes.png" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php include("footer.php");?>
