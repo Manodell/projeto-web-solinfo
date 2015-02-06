@@ -103,7 +103,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -174,7 +174,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -245,7 +245,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -314,7 +314,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -408,7 +408,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -479,7 +479,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -549,7 +549,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -620,7 +620,7 @@
                            href="produto.php"><i
                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                        <a href="lista de desejos.html"
+                        <a href="carrinho.php"
                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                     </div>
@@ -695,11 +695,11 @@
                                     <label for="newsletter">Cadastre-se e receba todas as novidades.</label>
                                 </div>
                                 <div class="input-box">
-                                    <input id="newsletter" class="input-text required-entry validate-text form-control inputnome" type="text" title="Seu nome" placeholder="Seu nome..." name="nome" />
-                                    <input id="newsletter" class="input-text required-entry validate-text form-control inputemail" type="email" title="Seu Email" placeholder="Seu email..." name="email" />
+                                    <input id="newsletter" class="input-text form-control inputnome" type="text" required="required" title="Seu nome" placeholder="Seu nome..." name="nome" />
+                                    <input id="newsletter" class="input-text form-control inputemail" type="email" required="required" title="Seu Email" placeholder="Seu email..." name="email" />
                                 </div>
                                 <div class="actions">
-                                    <button class="button" title="Enviar" type="submit">
+                                    <button class="btn" title="Cadastre-se" type="submit">
                                         <span>
                                             <span>Cadastre-se</span>
                                         </span>

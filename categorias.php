@@ -71,7 +71,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -142,7 +142,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -213,7 +213,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -304,7 +304,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -375,7 +375,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -446,7 +446,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -538,7 +538,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -609,7 +609,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>
@@ -680,7 +680,7 @@
                                            href="produto.php"><i
                                                 class="fa fa-eye"></i><span>Visualização rapida </span></a>
 
-                                        <a href="lista de desejos.html"
+                                        <a href="carrinho.php"
                                            title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
 
                                     </div>

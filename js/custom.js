@@ -76,4 +76,9 @@ $(window).bind("load", ScaleSlider);
 $(window).bind("resize", ScaleSlider);
 $(window).bind("orientationchange", ScaleSlider);
 //responsive code end
+
 });
+
+
+
+

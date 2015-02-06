@@ -355,16 +355,6 @@ table.radio tr.highlight:hover td {
 #sys-notification {
   display: none!important;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 1.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
-/* Page Heading */
-.page-title h1,
 .category-title h1 {
   font-size: 24px;
   font-family: "raleway-bold";
@@ -2500,14 +2490,6 @@ p.required, .product-options dt label.required em, .form-list label.required em 
 #columns {
   margin-top: 40px;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 3.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@email:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
 .paneltool {
   position: fixed;
   top: 05px;
@@ -2828,14 +2810,6 @@ p.required, .product-options dt label.required em, .form-list label.required em 
 .paneltool .panelcontent {
   text-align: left;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 1.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: inherit;
@@ -2944,15 +2918,6 @@ h6 {
   background-image: url(../images/i_msg-note.gif);
   color: #3d6611;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 1.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
-/* Forms */
 form {
   display: inline;
 }
@@ -3571,14 +3536,6 @@ table tbody td .option-value {
   padding: 0;
   background: #8f5a91;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 1.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
 .buttons {
   padding: 20px 0;
 }
@@ -7341,14 +7298,6 @@ span.created-date, span.author, span.blog-category {
   line-height: 20px;
   color: #777;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 1.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
 /* RESPONSIVE */
 #menu-offcanvas .button-close-menu {
   color: #ffffff;
@@ -7828,14 +7777,6 @@ body,
 .carousel.vertical .active.right {
   top: 100%;
 }
-
-/******************************************************
- * @package Ves Theme Framework for Magento
- * @version 1.0
- * @author http://www.venustheme.com
- * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
- * @license   GNU General Public License version 2
-*******************************************************/
 @media (min-width: 1200px) {
   .product-list .action {
     width: 50%;
