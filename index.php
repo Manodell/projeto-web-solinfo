@@ -84,7 +84,7 @@
 
 
                         <img class="img-responsive"
-                             src="images/product001.jpg"
+                             src="images/product002_2.jpg"
                              width="279" height="380" alt="Detalhes do produto"/>
 
                     </a>
@@ -226,7 +226,7 @@
 
 
                         <img class="img-responsive"
-                             src="images/product001.jpg"
+                             src="images/product003_4.jpg"
                              width="279" height="380" alt="Detalhes do produto"/>
 
                     </a>
@@ -390,7 +390,7 @@
 
 
                         <img class="img-responsive"
-                             src="images/product001.jpg"
+                             src="images/product007.jpg"
                              width="279" height="380" alt="Detalhes do produto"/>
 
                     </a>
@@ -460,7 +460,7 @@
 
 
                         <img class="img-responsive"
-                             src="images/product006_1.jpg"
+                             src="images/product004_3.jpg"
                              width="279" height="380" alt="Detalhes do produto"/>
 
                     </a>
@@ -531,7 +531,7 @@
 
 
                         <img class="img-responsive"
-                             src="images/product006_1.jpg"
+                             src="images/product019_1.jpg"
                              width="279" height="380" alt="Detalhes do produto"/>
 
                     </a>
@@ -601,7 +601,7 @@
 
 
                         <img class="img-responsive"
-                             src="images/product001.jpg"
+                             src="images/product008_2.jpg"
                              width="279" height="380" alt="Detalhes do produto"/>
 
                     </a>

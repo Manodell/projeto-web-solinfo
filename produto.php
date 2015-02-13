@@ -101,33 +101,41 @@
                 </a>
             </div>
         </div>
-        <script src="js/elevatezoom-min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/elevatezoom-min.js"></script>
         <script type="text/javascript">
             jQuery("#image").elevateZoom({
-                gallery: 'image-additional',
+                gallery:'image-additional',
                 cursor: 'pointer',
-                lensShape: "basic",
-                lensSize: 150,
+                lensShape : "basic",
+                lensSize    : 150,
                 galleryActiveClass: 'active'});
-        </script>
-        <script type="text/javascript">
-            <!--
 
-            jQuery('#image-gallery-zoom').find("a").click(function () {
-                if (jQuery(".product-img-box .image a").length > 0) {
-                    var image_link = jQuery(this).attr("href");
-                    jQuery(".product-img-box .image a").attr("href", image_link);
-                }
-            })
-            })
-            ;
-            //-->
         </script>
+
+        <script type="text/javascript"><!--
+            jQuery(document).ready(function() {
+                jQuery('.colorbox').colorbox({
+                    width: '500',
+                    height: '500',
+                    overlayClose: true,
+                    opacity: 0.5,
+                    rel: "colorbox"
+                });
+                jQuery('#image-gallery-zoom').find("a").click(function(){
+                    if(jQuery(".product-img-box .image a").length > 0) {
+                        var image_link = jQuery(this).attr("href");
+                        jQuery(".product-img-box .image a").attr("href", image_link);
+                    }
+                })
+            });
+            //--></script>
 
 
     </div>
+
     <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 product-shop product-view">
         <h1 itemprop="name">Nome do Produto em Oferta</h1>
+        <form>
 
         <div class="description" itemprop="description">
             <div class="short-description">
@@ -164,13 +172,7 @@
                 <span class="price" id="product-price-9">
                     R$ 240.00                </span>
                 </p>
-                <meta content="R$" itemprop="currency">
-                <meta content="240" itemprop="price">
-
-
             </div>
-
-
         </div>
 
 
@@ -179,19 +181,23 @@
                 <div class="qty quantity-adder pull-left">
                     <div class="quantity-number pull-left">
                         <label for="qty">QUANT:</label>
-                        <input name="qty" id="qty" maxlength="12" value="1" title="Quantity" class="input-text qty"
-                               type="text">
-                    </div>
 
+                            <input id="qty" class="input-text qty" type="text" title="Quantity" value="1" maxlength="12" name="qty">
+                    </div>
                     <div class="quantity-wrapper pull-left">
                         <span class="add-up add-action fa fa-plus"></span>
                         <span class="add-down add-action fa fa-minus"></span>
                     </div>
+
                 </div>
                 <div class="add-to-cart pull-left">
-                    <button type="button" title="Adicionar a sacola/carrinho" class="btn button btn-cart"
-                            onclick="productAddToCartForm.submit(this)"><span><span><i
-                                    class="fa fa-shopping-cart "> </i>Comprar</span></span></button>
+                    <button type="button" title="Adicionar a sacola/carrinho"
+                            class="btn button btn-cart"
+                        <span>
+                            <span><i class="fa fa-shopping-cart "> </i>Comprar
+                            </span>
+                        </span>
+                    </button>
                 </div>
 
 
@@ -199,16 +205,13 @@
                     <div>
                         <a href="listadesejo.php"
                            title="Lista de desejos"
-                           onclick="productAddToCartForm.submitLight(this, this.href); return false;"
                            class="wishlist btn"><i class="fa fa-heart">
-
                            </i>
                         </a>
                     </div>
                     <div>
                         <a href="carrinho.php"
                            title="Sacola de compras"
-                           onclick="productAddToCartForm.submitLight(this, this.href); return false;"
                            class="wishlist btn"><i class="fa open_bag_produto"><img src="images/open_bag.png"/>
 
                             </i>
@@ -220,7 +223,7 @@
         </div>
 
 
-
+        </form>
     </div>
 
 
@@ -234,5 +237,627 @@
     </div>
     </div>
     </section>
+    <section id="columns">
+    <div class="container">
+    <div class="row">
+    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div id="content">
+    <div class=" block productcarousel" id="module5707280431419958629">
+    <div class="block-title">
+        <h3>Produtos em Ofertas</h3>
 
+        <div class="pretext"></div>
+    </div>
+    <div class="block-content">
+    <div class="box-products carousel" id="productcarousel5707280431419958629">
+    <div class="carousel-inner">
+
+    <div class="item first active product-grid no-margin">
+
+    <div class="row products-row">
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item first ">
+        <div class="wrap-item">
+            <div class="product-block">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product001.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart"
+                                    onclick="addToCart('Produto')">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+        <div class="wrap-item">
+            <div class="product-block">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product006_1.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart"
+                                    onclick="addToCart('Produto')">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+        <div class="wrap-item">
+            <div class="product-block">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product001.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart"
+                                    onclick="addToCart('Produto')">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item last product-col  ">
+        <div class="wrap-item">
+            <div class="product-block">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product001.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="productcarousel2 block productcarousel" id="module670609331419958630">
+    <div class="block-title">
+        <h3>MAIS VISTOS</h3>
+
+        <div class="pretext"></div>
+    </div>
+    <div class="block-content">
+    <div class="box-products carousel" id="productcarousel2670609331419958630">
+    <div class="carousel-inner">
+
+    <div class="item first active product-grid no-margin">
+
+    <div class="row products-row">
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item first ">
+        <div class="wrap-item">
+            <div class="product-block block2">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product001.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+        <div class="wrap-item">
+            <div class="product-block block2">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product006_1.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart"
+                                    onclick="addToCart('Produto')">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item product-col  ">
+        <div class="wrap-item">
+            <div class="product-block block2">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product006_1.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-12 col-lg-3 col-sm-6 col-6 _item last product-col  ">
+        <div class="wrap-item">
+            <div class="product-block block2">
+                <div class="image ">
+                    <div class="product-img img">
+                        <a href="produto.php"
+                           title="Detalhes do produto" class="product-image img">
+
+
+                            <img class="img-responsive"
+                                 src="images/product001.jpg"
+                                 width="279" height="380" alt="Detalhes do produto"/>
+
+                        </a>
+
+
+                    </div>
+                    <div class="action">
+                        <div class="add-to-cart">
+                            <button type="button" title="Comprar" class="btn btn-cart"
+                                    onclick="addToCart('Produto')">
+                                <span>Comprar</span></button>
+
+                        </div>
+                        <div class="add-to-link">
+                            <a class="a-quickview ves-colorbox" title="Visualização rapida"
+                               href="produto.php"><i
+                                    class="fa fa-eye"></i><span>Visualização rapida </span></a>
+
+                            <a href="carrinho.php"
+                               title="Lista de desejos" class="link-wishlist"><i class="fa fa-heart"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-meta product-shop">
+
+                    <h3 class="product-name name"><a
+                            href="produto.php"
+                            title="Exercitationem ullam corporis suscipit">Vestido casual talls</a></h3>
+
+                    <div class="price">
+
+
+                        <div class="price-box">
+
+                            <p class="old-price">
+                                <span class="price-label">Preço Regular:</span>
+                <span class="price" id="old-price-1_product_carousel_1_5707280431419958629">
+                    R$120.00                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Preço Especial</span>
+                <span class="price" id="product-price-1_product_carousel_1_5707280431419958629">
+                    R$110.00                </span>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+    </section>
+    </div>
+    </div>
+    </section>
 <?php include("footer.php"); ?>

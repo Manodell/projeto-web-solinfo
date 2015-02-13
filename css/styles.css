@@ -7020,7 +7020,8 @@ span.created-date, span.author, span.blog-category {
   margin-right: 10px;
 }
 .product-info .product-extra .add-action,
-.product-info .product-options-bottom .add-action {
+.product-info .product-options-bottom .add-action,
+.carrinhodecompras .add-action {
   display: block;
   width: 20px;
   height: 20px;
@@ -7033,7 +7034,8 @@ span.created-date, span.author, span.blog-category {
   background: #d0d0d0;
 }
 .product-info .product-extra .add-up,
-.product-info .product-options-bottom .add-up {
+.product-info .product-options-bottom .add-up,
+.carrinhodecompras .add-up{
   background: #99ce58;
 }
 .product-info .product-extra .add-to-icon,
@@ -7043,7 +7045,8 @@ span.created-date, span.author, span.blog-category {
   background: #80bc37;
 }
 .product-info .product-extra .quantity-number input,
-.product-info .product-options-bottom .quantity-number input {
+.product-info .product-options-bottom .quantity-number input,
+.carrinhodecompras .quantity-number input{
   min-width: 70px;
   width: 70px!important;
   height: 40px!important;

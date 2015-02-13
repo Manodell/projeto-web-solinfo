@@ -235,22 +235,32 @@ ul{list-style: none;}
     border: 1px solid #0d9eb2;
 }
 
-.main{
-    padding: 50px 20px 0px;
+.main {
+    padding: 10px 20px 0px;
     float: left;
+
 }
-.contato{
+.contato {
 
 
     }
-.contato h3{
+.contato h3 {
     margin: 30px;
 
 }
-.contato #contactForm{
+.contato #contactForm {
     margin: 30px;
 }
 
-.produto-show{
+.produto-show {
     margin: 10px auto;
+}
+.sacola-valor td{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway',"inherit", sans-serif;
+    font-weight: 500;
+    line-height: 0.5;
+    text-align: center;
+    background: #0d9eb2;
 }
